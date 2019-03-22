@@ -1,0 +1,14 @@
+{
+  "welcomeFile": "/m3ui/index.html",
+  "authenticationMethod": "route",
+  "logout": {
+    "logoutEndpoint": "/do/logout"
+  },
+  "routes": [
+    {
+      "source": "^/m3ui/(.*)$",
+      "target": "$1",
+      "localDir": "webapp"
+    }
+  ]
+}
