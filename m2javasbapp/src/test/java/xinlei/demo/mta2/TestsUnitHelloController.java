@@ -24,6 +24,6 @@ public class TestsUnitHelloController {
   public void exampleTest() throws Exception {
     MvcResult result = this.restTemplate.perform(get("/")).andReturn();
     String content = result.getResponse().getContentAsString();
-    assertThat(content).startsWith("Hello World");
+    assertThat(content).startsWith("Hello");
   }
 }

@@ -23,7 +23,7 @@ public class HelloController {
   @ResponseBody
   String home() {
     StringBuilder builder = new StringBuilder();
-    builder.append("Hello World !!");
+    builder.append("Hello Xinlei01 !!");
 
     builder.append("\n\nJDBC connection available: ");
     try {
